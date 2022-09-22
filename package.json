@@ -3,7 +3,7 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/and2694"
   },
-  "version": "0.0.4",
+  "version": "0.0.1",
   "description": "Seatmap Component Library for PribasGmbH",
   "scripts": {
     "rollup": "rollup -c"

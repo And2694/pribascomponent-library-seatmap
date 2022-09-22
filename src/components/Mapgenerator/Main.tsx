@@ -1,7 +1,7 @@
 import React from 'react';
 import Mapgenerator from './Mapgenerator';
 
-interface elements{
+interface attributes{
         id: string;
         number:Number;
         isReserved:Boolean;
@@ -38,13 +38,15 @@ interface elements{
         iterator: number;
 }
 
-interface propsMain extends Array<elements>{}
+interface propsMain{
+    data: attributes[]
+}
 
-const Main = (rowing: propsMain) => {
+const Main = (data: propsMain): JSX.Element => {
     return (
         <div>
             <table className="table" style={{marginLeft: "auto", marginRight: "auto", width: "8em"}}>
-                {rowing.map((ele, idx)=>{
+                {data.data.map((ele, idx)=>{
                     try{
                         if(ele.separation==true){
                             return <><Mapgenerator data={[ele]} /><th><br/></th></>
