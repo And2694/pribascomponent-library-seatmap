@@ -8,6 +8,7 @@ interface attributes{
         orientation:string;
         internalId:string;
         externalId:string;
+        edited: Boolean;
         row:Number;
         column:string;
         price:Number;
@@ -30,6 +31,7 @@ interface attributes{
         fees: string[];
         recordLocator: string;
         paxName: string;
+        paxType: string;
         pax: string;
         changeable: Boolean;
         cancelable: Boolean;
