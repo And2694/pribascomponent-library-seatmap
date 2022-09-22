@@ -10,7 +10,7 @@ interface propsMapgenerator{
     data: elements[]
 }
 
-const Mapgenerator = (data: propsMapgenerator): JSX.Element => {
+const Mapgenerator = (data: propsMapgenerator) => {
 
     var i=0;
 

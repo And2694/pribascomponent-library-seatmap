@@ -4,7 +4,7 @@ interface propsSeats {
     id: string;
 }
 
-const Seats = (props:propsSeats): JSX.Element => {
+const Seats = (props:propsSeats) => {
     return (
         <td>
             <div className="seat" id={props.id}></div>

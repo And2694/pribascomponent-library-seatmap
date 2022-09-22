@@ -42,7 +42,7 @@ interface propsMain{
     data: attributes[]
 }
 
-const Main = (data: propsMain): JSX.Element => {
+const Main = (data: propsMain) => {
     return (
         <div>
             <table className="table" style={{marginLeft: "auto", marginRight: "auto", width: "8em"}}>
