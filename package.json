@@ -21,7 +21,7 @@
     "typescript": "^4.8.3"
   },
   "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
+  "module": "dist/esm/types/index.js",
   "files": [
     "dist"
   ],

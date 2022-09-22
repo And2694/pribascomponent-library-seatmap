@@ -52,7 +52,7 @@ const Main = (data: propsMain) => {
                             return <><Mapgenerator data={[ele]} /><th><br/></th></>
                         }
                     }catch(err){
-
+                        
                     }
                     return <Mapgenerator data={[ele]} />
                 })}

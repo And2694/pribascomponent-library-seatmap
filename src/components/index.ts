@@ -1,1 +1,1 @@
-export {default as Map} from "./Mapgenerator"
+export {default as SeatMap} from "./SeatmapGenerator"
