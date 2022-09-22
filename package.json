@@ -1,9 +1,9 @@
 {
-  "name": "@And2694/pribascomponent-library-seatmap",
+  "name": "@and2694/pribascomponent-library-seatmap",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@And2694"
+    "registry": "https://npm.pkg.github.com/and2694"
   },
-  "version": "1.0.0",
+  "version": "0.0.4",
   "description": "Seatmap Component Library for PribasGmbH",
   "scripts": {
     "rollup": "rollup -c"
