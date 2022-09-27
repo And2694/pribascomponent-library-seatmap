@@ -1,12 +1,11 @@
 import React from 'react';
+import "./Seats.css";
 
-interface propsSeats {
-    id: string;
-}
+const Seats = (props:any) => {
+    var i =0;
 
-const Seats = (props:propsSeats) => {
     return (
-        <td>
+        <td key={"keyItem"+i++}>
             <div className="seat" id={props.id}></div>
         </td>
     );
